@@ -1,8 +1,8 @@
 {
 	id:"HSI_Stalker",
 	"color":[225,75,75,225],
-	"displayName":"追猎者",
-	"displayNameWithArticle":"追猎者",
+	"displayName":"Stalkers",
+	"displayNameWithArticle":"Stalkers",
 	"logo": "graphics/factions/HSI.png",
     "crest": "graphics/factions/crest_HSI.png",
 	"shipNamePrefix":"HPSS",

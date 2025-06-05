@@ -1,12 +1,12 @@
 {
 	"HSI_Intrusion":{
-		"name":"intrusion",
+		"name":"Intrusion",
 		"tilt":-16, # left-right (>0 tilts to the left)
 		"pitch":10, # towards-away from the viewer (>0 pitches towards)
 		"rotation":-2, # degrees/second
 		"planetColor":[0,0,0,255],
 		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
-		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereThicknessMin":10, #  minimum thickness inS pixels
 		"atmosphereColor":[140,90,255,255],
 		"texture":"graphics/planets/star_white.jpg",
 		"icon":"graphics/icons/blackhole.png",
