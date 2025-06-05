@@ -2,7 +2,7 @@
 	"baseHullId":"HSI_Oath",
 	"skinHullId":"HSI_Oath_Stalker",
 	"hullName":"Oath (S)",
-	"descriptionPrefix":"This ship is special variant a provided to the Stalkers. This vessel comes with internal modifications that drastically lower the thresholds of operational safety protocols to suit the demands of bloodthirsty maniacs who live life on the edge.
+	"descriptionPrefix":"This ship is special variant a provided to the Stalkers. This vessel comes with internal modifications that drastically lower the thresholds of operational safety protocols to suit the demands of bloodthirsty maniacs who live life on the edge."
 	"tags":["Stalker_bp","no_dealer","no_sell","no_bp_drop"],
 	"tech":"Stalker",
 	"spriteName":"graphics/ships/HSI_Oath_F.png",
