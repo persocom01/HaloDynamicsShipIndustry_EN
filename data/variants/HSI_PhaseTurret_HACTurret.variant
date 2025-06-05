@@ -1,7 +1,7 @@
 {
   "variantId": "HSI_PhaseTurret_HACTurret",
   "hullId": "HSI_PhaseTurret",
-  "displayName": "天灯",
+  "displayName": "Sky Lantern",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

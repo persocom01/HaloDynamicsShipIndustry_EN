@@ -1,7 +1,7 @@
 {
   "variantId": "HSI_DayTime_variant",
   "hullId": "HSI_DayTime",
-  "displayName": "未知",
+  "displayName": "Unknown",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

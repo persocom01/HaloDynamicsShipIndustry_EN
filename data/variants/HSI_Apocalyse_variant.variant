@@ -1,7 +1,7 @@
 {
   "variantId": "HSI_Apocalyse_variant",
   "hullId": "HSI_Apocalyse",
-  "displayName": "重型无人作战单元",
+  "displayName": "Heavy Autonomous Combat Unit",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

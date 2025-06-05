@@ -1,7 +1,7 @@
 {
   "variantId": "HSI_ButterFly_variant",
   "hullId": "HSI_ButterFly",
-  "displayName": "未知实体",
+  "displayName": "Unknown Entity",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
