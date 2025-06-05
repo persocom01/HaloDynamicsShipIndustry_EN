@@ -181,7 +181,7 @@ $faction.id == HSI",,"""Hello, our shipbuilding and weapons industries is capabl
 HSI_Forge_Pick,DialogOptionSelected,$option == HSI_Forge_Pick,HSIContactForge,,,
 HSI_Forge_Picked,HSIForgePicked,,"$option = HSI_Forge_out 0
 FireBest DialogOptionSelected",,,
-HSI_Forge_Out,DialogOptionSelected,$option == HSI_Forge_out,FireAll PopulateOptions,"""Thank you for your order. Production is usually completed within 60 days. Shipping is not included, please collect your order in person or with a valid certificate at the Space Bridge.""",,
+HSI_Forge_Out,DialogOptionSelected,$option == HSI_Forge_out,FireAll PopulateOptions,"""Thank you for your order. Production is usually completed within 60 days. Shipping is not included, please collect your order in person or via a representative with a valid certificate at the Space Bridge.""",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -191,7 +191,7 @@ HSI_Forge_Out,DialogOptionSelected,$option == HSI_Forge_out,FireAll PopulateOpti
 HSI_TC0Start,AddBarEvents,"!$global.HSITC0Started
 !$global.HSITC0Finished
 !$market.isHidden
-RepIsAtWorst HSI COOPERATIVE","AddBarEvent HSI_TC0_BarEvent ""A young girl sat in a corner, looking out of place in a bar. no one seemed to notice her."" ""In the crowded bar, for some reason, a quiet corner abruptly appeared."" 255,140,200,255",,,
+RepIsAtWorst HSI COOPERATIVE","AddBarEvent HSI_TC0_BarEvent ""A young girl sat in a corner, looking out of place in a bar. No one seemed to notice her."" ""In the crowded bar, for some reason, a quiet corner abruptly appeared."" 255,140,200,255",,,
 HSI_TC0Event1,DialogOptionSelected,$option == HSI_TC0_BarEvent,"AddText ""Your approach manages to divert her gaze from her Tripad.\""How do you do, Captain $playerName. It seems like you've finally noticed me.\"""" 255,140,200,255
 HSISetPerson TheCommissioner
 ShowPersonVisual

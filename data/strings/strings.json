@@ -62,7 +62,7 @@
 		"HSISAAdvPickBuff": "Select Buffs-",
 
 		"HPSIDIntelName":"HiNet",
-		"HPSIDIntelGuidence":"Proceed to Intrusion to liaise with contacts from various departments. They provide rare items, allow you to place custom orders, and offer opportunities to strengthen relations with Halo Dynamics that will increase your HiNet clearance level.\nhe higher the level, the more access and privileges grants, but be warned, that subsequent hostilities against Halo Dynamics will be treated as betrayal.",
+		"HPSIDIntelGuidence":"Proceed to Intrusion to liaise with representatives from various departments. They provide rare items, allow you to place custom orders, and offer opportunities to strengthen relations with Halo Dynamics that will increase your HiNet clearance level.\nhe higher the level, the more access and privileges grants, but be warned, that subsequent hostilities against Halo Dynamics will be treated as betrayal.",
 		"HPSIDIntelGuidenceHL":"10/50/300",
 		"HPSIDStageJuniorCoop":"Grants a limited stipend.",
 		"HPSIDStageJuniorCoopHL":"Stipend",
@@ -101,7 +101,7 @@
 		"HSI_Shop_Reset":"Reset",
 		"HSI_Shop_Total":"Total",
 		"HSI_Shop_Owner_Name":"Skye",
-		"HSI_Shop_Owner_Rank":"Quartermaster (?)",
+		"HSI_Shop_Owner_Rank":"Supply Officer (?)",
 		"HSI_Shop_Index":"General Supply",
 		"HSI_Shop_Forge":"Equipment Supply",
 		"HSI_Shop_List":"Cart",
@@ -126,7 +126,7 @@
 		"HSI_ShopOwner_Normal_ChatTouch1":"Fine print? There is no fine print.",
 		"HSI_ShopOwner_Normal_ChatTouch2":"Delivery takes time, but still beats sourcing it yourself.",
 		"HSI_Shop_Owner_Normal_Name":"Elisa",
-		"HSI_Shop_Owner_Normal_Rank":"Quartermaster",
+		"HSI_Shop_Owner_Normal_Rank":"Supply Officer",
 
 		"HPSIDContracts": "Production Order",
 
