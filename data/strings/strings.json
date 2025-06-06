@@ -62,7 +62,7 @@
 		"HSISAAdvPickBuff": "Select Buffs-",
 
 		"HPSIDIntelName":"HiNet",
-		"HPSIDIntelGuidence":"Proceed to Intrusion to liaise with representatives from various departments. They provide rare items, allow you to place custom orders, and offer opportunities to strengthen relations with Halo Dynamics that will increase your HiNet clearance level.\nhe higher the level, the more access and privileges grants, but be warned, that subsequent hostilities against Halo Dynamics will be treated as betrayal.",
+		"HPSIDIntelGuidence":"Proceed to Intrusion to liaise with representatives from various departments. They provide rare items, allow you to place custom orders, and offer opportunities to strengthen relations with Halo Dynamics that will increase your HiNet clearance level.\nThe higher the level, the more access and privileges grants, but be warned, that subsequent hostilities against Halo Dynamics will be treated as betrayal.",
 		"HPSIDIntelGuidenceHL":"10/50/300",
 		"HPSIDStageJuniorCoop":"Grants a limited stipend.",
 		"HPSIDStageJuniorCoopHL":"Stipend",
@@ -133,7 +133,7 @@
 		"HPSIDContracts_Title": "Order",
 		"HPSIDContracts_TimeLeft": "Estimated Time: ",
 
-		"HPSIDContracts_Tutorial": "Proceed to the Halo Dynamics Space Bridge to discuss the purchase with the Ship Industry contact.",
+		"HPSIDContracts_Tutorial": "Proceed to the Halo Dynamics Space Bridge to discuss purchases with the Ship Industry contact.",
 
 
 

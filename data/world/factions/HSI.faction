@@ -4,7 +4,7 @@
   #"baseUIColor": [75, 200, 0, 255],
   #"darkUIColor": [32, 85, 0, 175],
   #"gridUIColor": [95, 255, 0, 75],
-  "displayName": "Halo Dynamics Ship Industry",
+  "displayName": "Halo Dynamics",
   "displayNameWithArticle": "Halo Dynamics Ship Industry",
   "logo": "graphics/factions/HSI.png",
   "crest": "graphics/factions/crest_HSI.png",

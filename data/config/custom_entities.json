@@ -1,9 +1,9 @@
 {
 
 	"HSI_SpaceBridge":{
-		"defaultName":"Halo Dynamics Space Bridge",# used if name=null in addCustomEntity()
-		"nameInText":"Halo Dynamics Space Bridge",
-		"shortName":"Halo Dynamics Space Bridge",
+		"defaultName":"Space Bridge",# used if name=null in addCustomEntity()
+		"nameInText":"Space Bridge",
+		"shortName":"Space Bridge",
 		"defaultRadius":110,# used if radius<0 in addCustomEntity()
 		"customDescriptionId":"HSI_SpaceBridge",
 		"interactionImage":"graphics/illustrations/academy.jpg",

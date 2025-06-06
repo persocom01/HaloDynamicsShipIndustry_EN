@@ -1,6 +1,6 @@
 {
 	"HSI_Intrusion":{
-		"name":"Intrusion",
+		"name":"Offset Horizon Projection",
 		"tilt":-16, # left-right (>0 tilts to the left)
 		"pitch":10, # towards-away from the viewer (>0 pitches towards)
 		"rotation":-2, # degrees/second
@@ -24,7 +24,7 @@
 	},
   
 	"HSI_Wanderer":{
-		"name":"Wandering Frost",
+		"name":"Rogue Ice",
 		"tilt":-27, # left-right (>0 tilts to the left)
 		"pitch":4, # towards-away from the viewer (>0 pitches towards)
 		"rotation":-5, # degrees/second
@@ -40,7 +40,7 @@
 	},
 	
 	"HSI_Minion":{
-		"name":"Wandering Frost",
+		"name":"Rogue Ice",
 		"tilt":-11, # left-right (>0 tilts to the left)
 		"pitch":2, # towards-away from the viewer (>0 pitches towards)
 		"rotation":-6, # degrees/second
