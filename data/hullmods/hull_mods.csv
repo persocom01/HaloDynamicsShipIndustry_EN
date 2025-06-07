@@ -49,7 +49,7 @@ Contrail,HSI_ContrailMod,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_d
 Drone Ground Support,HSI_DGS,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIDroneGroundSupport,"The ship's drone units will participate in ground combat. Increases the effectiveness of planetary raids by %s per wing, up to the total number of marines in the fleet.",,,graphics/icons/hullmods/HSI_DGS.png
 Shield Link Framework,HSI_ShieldLinkFrame,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,TRUE,0,0,0,0,data.hullmods.ShieldMod.HSIShieldLinkFrame,"A linked shield framework designed for smaller ships. When friendly vessels that also carry this framework are within approximately %s of this ship, mutually replenish shields, at a rate equal to %s of the lower recovery speed among them.",,,graphics/icons/hullmods/HSI_ShieldLinkFrame.png
 3rd Guards Fleet,HSI_GuardFleet3,2,0,,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIGuardFleet3,Immune to the effect operating in a solar corona has on combat readiness. Increases maximum burn in hyperspace by %s.,,,graphics/icons/hullmods/HSI_GuardFleet3.png
-Stalker,HSI_Stalker,2,0,,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIAvangers,"Specially configured subsystems that are installed drastically reduce weapon ranges past %s, increase barrier recovery rate by %s, and allows zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate is increased by a factor of %s.
+Stalker,HSI_Stalker,2,0,,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIAvangers,"Specially configured subsystems that are installed drastically reduce weapon ranges past %s, increase barrier regeneration by %s, and allows zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate is increased by a factor of %s.
 Side effects reduce barrier capacity by %s, reduce peak performance time by %s, and prevents the use of active venting.
 Incompatible with %s.",,,graphics/icons/hullmods/HSI_Avangers.png
 Elite Foundry,HSI_EliteForge,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,TRUE,0,0,0,0,data.hullmods.ShieldMod.HSIEliteForge,"An elite ship built with bleeding-edge technology. Equipped with an improved barrier system, increasing barrier capacity by %s and barrier regeneration speed by %s.
@@ -72,7 +72,7 @@ Armored Shield,HSI_ArmoredShield,2,0,Halo Dynamics Ship Industry,"special, no_dr
 Mobility Focus,HSI_ManuverTransfer,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.ShieldMod.HSIManuverTransfer,The propulsion system's heavy energy and space demands increase the damage taken by the barrier by %s.,,,graphics/icons/hullmods/HSI_ManuverTransfer.png
 ,,,,,,,,,,,,,,,,,,,
 #normal#,,,,,,,,,,,,,,,,,,,
-Unstoppable,HSI_PowerOverwhelming,2,,Halo Dynamics Ship Industry,"defensive,offensive",,15000,,TRUE,,5,10,15,25,data.hullmods.ShieldMod.HSIPowerOverwhelming,"Increases barrier capacity by %s, decreases barrier recovery rate by %s,",,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
+Unstoppable,HSI_PowerOverwhelming,2,,Halo Dynamics Ship Industry,"defensive,offensive",,15000,,TRUE,,5,10,15,25,data.hullmods.ShieldMod.HSIPowerOverwhelming,"Increases barrier capacity by %s, decreases barrier regeneration by %s,",,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
 Weapons Industry Adaptation Kit,HSI_WeaponIndAdaption,3,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",Weapons,25000,TRUE,,,0,0,0,0,data.hullmods.HSIWeaponIndAdaption,"Convert some weapons into modified versions provided by the Weapons Industry.
 #Modified weapons cannot be safely removed. Please uninstall this hullmod before attempting removal.
 ##Weapons Industry shall not be held liable for any loss incurred as a result of improper procedures.",,,graphics/icons/hullmods/HSI_WeaponIndAdaption.png
@@ -80,9 +80,10 @@ Weapons Industry Upgrade Kit,HSI_WeaponIndUpgrades,3,,Halo Dynamics Ship Industr
 Hardened Barrier,HSI_HardenShield,2,,Halo Dynamics Ship Industry,"defensive,HSI_bp",Shields,12000,,,,5,10,15,25,data.hullmods.ShieldMod.HSIHardenShield,"Increases barrier strength by %s.
 Damage to the barrier above %s is reduced by %s.
 ",,,graphics/icons/hullmods/HSI_HardenShield.png
-Enhanced Barrier,HSI_EnhancedShield,2,,Halo Dynamics Ship Industry,"defensive,HSI_bp",Shields,12000,,,,5,10,15,25,data.hullmods.ShieldMod.HSIEnhancedShield,Increases barrier capacity by %s. Increases barrier recovery rate by %s.,,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
+Enhanced Barrier,HSI_EnhancedShield,2,,Halo Dynamics Ship Industry,"defensive,HSI_bp",Shields,12000,,,,5,10,15,25,data.hullmods.ShieldMod.HSIEnhancedShield,Increases barrier capacity by %s. Increases barrier regeneration by %s.,,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
 ,,,,,,,,,,,,,,,,,,,graphics/icons/hullmods/HSI_WeaponIndUpgrades.png
 Meltdown Protocol,HSI_ProtocalMeltDown,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,4,8,12,20,data.hullmods.WeaponMod.HSIProtocalMeltDown,"Beam weapons deal %s more damage based on the ratio of weapon slots occupied by Halo Dynamics beam weapons.
+
 Enhances the additional effects of Halo Dynamics beam weapons by %s.
 
 Current weapon slot ratio: %s.",,,graphics/icons/hullmods/HSI_ProtocalMeltdown.png

@@ -6,9 +6,9 @@ HSI_Home_Relay,Headquarters Support,90,60,,14,,,"unraidable,structure",,graphics
 
 Greatly improves ship production quality and the fleet size.",3900,EXTREME
 HSI_GF3_HQ,Guards Corps Headquarters,90,60,,14,,,"unraidable,military, structure",,graphics/icons/industry/high_command.png,data.econ.HSIGF.HSI_GF3_HQ,The 3rd Guards Fleet stand ready for battle on the other side of the Intrusion. This place is not as vulnerable as it seems.,4100,EXTREME
-HPSID,Security and Intelligence Division,90,60,,14,,,"unraidable,structure",,graphics/icons/industry/HPSID.png,data.econ.HSIHPSID,"Since their arrival in the sector, the intelligence leaks within Halo Dynamics have been unusually stable, ongoing, and curiously harmless.
+HPSID,Security and Intelligence Dept.,90,60,,14,,,"unraidable,structure",,graphics/icons/industry/HPSID.png,data.econ.HSIHPSID,"Since their arrival in the sector, the intelligence leaks within Halo Dynamics have been unusually stable, ongoing, and curiously harmless.
 
-While the Security Information Division seemed to allow agents of major powers to transmit intelligence freely, only the department truly knew how many individuals had vanished without a trace in the small star system.
+While the Security and Intelligence Department seemed to allow agents of major powers to transmit information freely, only the department truly knew how many individuals had vanished without a trace in the small star system.
 
-Increases stability and serious interfers with agent operations.",4200,EXTREME
+Increases stability and seriously interferes with agent operations.",4200,EXTREME
 ,,,,,,,,,,,,,,

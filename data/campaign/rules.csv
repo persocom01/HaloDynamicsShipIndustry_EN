@@ -192,18 +192,18 @@ HSI_TC0Start,AddBarEvents,"!$global.HSITC0Started
 !$global.HSITC0Finished
 !$market.isHidden
 RepIsAtWorst HSI COOPERATIVE","AddBarEvent HSI_TC0_BarEvent ""A young girl sat in a corner, looking out of place in a bar. No one seemed to notice her."" ""In the crowded bar, for some reason, a quiet corner abruptly appeared."" 255,140,200,255",,,
-HSI_TC0Event1,DialogOptionSelected,$option == HSI_TC0_BarEvent,"AddText ""Your approach manages to divert her gaze from her Tripad.\""How do you do, Captain $playerName. It seems like you've finally noticed me.\"""" 255,140,200,255
+HSI_TC0Event1,DialogOptionSelected,$option == HSI_TC0_BarEvent,"AddText ""Your approach manages to divert her gaze from her Tripad. \""How do you do, Captain $playerName. It seems like you've finally noticed me.\"""" 255,140,200,255
 HSISetPerson TheCommissioner
 ShowPersonVisual
 $global.HSITC0Started = true",,"HSI_TC0_1_1:Say nothing
 HSI_TC0_1_2:""It's hard to imagine a lady as dazzling as yourself being ignored.""",
 HSI_TC0Event2_1,DialogOptionSelected,$option == HSI_TC0_1_1,"AddText ""\""Have a seat, Captain $playerName. There's no need for reservations.\"""" 255,140,200,255",,HSI_TC0_2:Sit,
-HSI_TC0Event2_2,DialogOptionSelected,$option == HSI_TC0_1_2,"AddText ""\""I didn't expect you to be such a sweet talker.\""You seem to see her smile, but it is gone as soon as it appeared.\""Have a seat, Captain $playerName, there's no need to be so... I believe you'd dislike formality.\"""" 255,140,200,255",,HSI_TC0_2:Sit,
-HSI_TC0Event3,DialogOptionSelected,$option == HSI_TC0_2,"AddText ""Her invitation seemed to have some kind of charm, and you ease into a seat opposite her. She taps her Tripad a few times.\""I looked for you purely out of curiosity. To be honest, you are very interesting.\"""" 255,140,200,255",,"HSI_TC0_3_1:""I don't find myself interesting.""
+HSI_TC0Event2_2,DialogOptionSelected,$option == HSI_TC0_1_2,"AddText ""\""I didn't expect you to be such a sweet talker.\"" You seem to see her smile, but it is gone as soon as it appeared. \""Have a seat, Captain $playerName, there's no need to be so... I believe you'd dislike formality.\"""" 255,140,200,255",,HSI_TC0_2:Sit,
+HSI_TC0Event3,DialogOptionSelected,$option == HSI_TC0_2,"AddText ""Her invitation seemed to have some kind of charm, and you ease into a seat opposite her. She taps her Tripad a few times. \""I looked for you purely out of curiosity. To be honest, you are very interesting.\"""" 255,140,200,255",,"HSI_TC0_3_1:""I don't find myself interesting.""
 HSI_TC0_3_2:""Well... I am indeed very interesting.""",
-HSI_TC0Event4_1,DialogOptionSelected,$option == HSI_TC0_3_2,"AddText ""\""Then I could have praised you more. However, I'd still like a test of your abilities.\""She pushes a chip towards you.\""This is a little greeting gift.\""She pauses and pushes the glass of wine that was by her hand to you,\""I hope you are as strong as you are eloquent.\"""" 255,140,200,255",,"HSI_TC0_4_1:Take the chip
+HSI_TC0Event4_1,DialogOptionSelected,$option == HSI_TC0_3_2,"AddText ""\""Then I could have praised you more. However, I'd still like a test of your abilities.\"" She pushes a chip towards you. \""This is a little greeting gift.\"" She pauses and pushes the glass of wine that was by her hand to you, \""I hope you are as strong as you are eloquent.\"""" 255,140,200,255",,"HSI_TC0_4_1:Take the chip
 HSI_TC0_4_2:""I don't think it really interests me.""",
-HSI_TC0Event_2,DialogOptionSelected,$option == HSI_TC0_3_1,"AddText ""\""If you would like, we can talk about it at length. However, I'd still like a test of your abilities.\""She pushes a chip towards you.\""This is a little greeting gift.\""She pours the wine by her hand into two empty glasses, takes a sip from one, and pushes the other to you.\""I hope you that next time we meet, you won't be so guarded.\"""" 255,140,200,255",,"HSI_TC0_4_1:Take the chip
+HSI_TC0Event_2,DialogOptionSelected,$option == HSI_TC0_3_1,"AddText ""\""If you would like, we can talk about it at length. However, I'd still like a test of your abilities.\"" She pushes a chip towards you. \""This is a little greeting gift.\"" She pours the wine by her hand into two empty glasses, takes a sip from one, and pushes the other to you. \""I hope you that next time we meet, you won't be so guarded.\"""" 255,140,200,255",,"HSI_TC0_4_1:Take the chip
 HSI_TC0_4_2:""I don't think it really interests me.""",
 HSI_TC0Fight,DialogOptionSelected,$option == HSI_TC0_4_1,HSITCEventFight TC0,,,
 HSI_TC0Leave,DialogOptionSelected,$option == HSI_TC0_4_2,"AddText ""The other party said nothing more."" 255,140,200,255
@@ -218,18 +218,18 @@ $global.HSITC0Finished
 !$global.HSITC1Accepted
 $isPerson
 HSIPersonIdentityCheck PersonIsTheCommissioner",,,HSI_TC1_1:The Director is waiting for you.,
-HSI_TC1_1,DialogOptionSelected,$option == HSI_TC1_1,"AddText ""\""Greetings, Captain, $playerName.\""The Director sat by the window, in a cabin with what may be one of the best views on the space bridge. Behind her lay the yawning gulf of Intrustion. Your eyes meet its unending blackness, unsettling even for the most seasoned spacefarers.\n\""I wouldn't recommend staring at it for too long. The event horizon truly is a fascinating phenomenon, but prolonged observation might trigger a fear of black holes.\""You hear the Director's voice behind you. Startled, you turn, surprised to find her no longer in her seat.\""Sorry to keep you waiting.\"""" 255,140,200,255
+HSI_TC1_1,DialogOptionSelected,$option == HSI_TC1_1,"AddText ""\""Greetings, Captain, $playerName.\"" The Director sat by the window, in a cabin with what may be one of the best views on the space bridge. Behind her lay the yawning gulf of Intrustion. Your eyes meet its unending blackness, unsettling even for the most seasoned spacefarers.\n\""I wouldn't recommend staring at it for too long. The event horizon truly is a fascinating phenomenon, but prolonged observation might trigger a fear of black holes.\"" You hear the Director's voice behind you. Startled, you turn, surprised to find her no longer in her seat. \""Sorry to keep you waiting.\"""" 255,140,200,255
 $global.HSITC1Accepted = true",,HSI_TC1_2:Shake your head.,
-HSI_TC1_2,DialogOptionSelected,$option == HSI_TC1_2,"AddText ""\""You did a good job last time, so this time, I'd like you to help me with something.\""She takes a look at you,\""The previous test had no effect on you, which is very rare.\"""" 255,140,200,255",,"HSI_TC1_3_1:""Test?""
+HSI_TC1_2,DialogOptionSelected,$option == HSI_TC1_2,"AddText ""\""You did a good job last time, so this time, I'd like you to help me with something.\"" She takes a look at you, \""The previous test had no effect on you, which is very rare.\"""" 255,140,200,255",,"HSI_TC1_3_1:""Test?""
 HSI_TC1_4_1:""Okay, tell me.""
 HSI_TC1_4_2:""I'll need a clear explanation before I can accept such a vague commission.""",
 HSI_TC1_3_1,DialogOptionSelected,$option == HSI_TC1_3_1,"AddText ""\""It's not a big deal... Captain $playerName, it's better not to ask.\"""" 255,140,200,255",,"HSI_TC1_4_1:""Okay, go ahead and tell me.""
 HSI_TC1_3_2:""I don't intend to take vague commissions.""",
-HSI_TC1_3_2,DialogOptionSelected,$option == HSI_TC1_3_2,"AddText ""The Director frowned slightly.\""This is truly difficult, Captain $playerName.\""She points towards Intrustion outside the window,\""As we've spoken of before, certain phenomena can influence the human mind. You looked at it, yet remained unaffected, and you won't be affected by similar phenomena either. This isn't an aptitude everyone possesses.\"""" 255,140,200,255",,"HSI_TC1_4_1:""Tell me about your commission.""
+HSI_TC1_3_2,DialogOptionSelected,$option == HSI_TC1_3_2,"AddText ""The Director frowned slightly. \""You're not making this easy, Captain $playerName.\"" She points towards Intrustion outside the window, \""As we've spoken of before, certain phenomena can influence the human mind. You looked at it, yet remained unaffected, and you won't be affected by similar phenomena either. This isn't an aptitude everyone possesses.\"""" 255,140,200,255",,"HSI_TC1_4_1:""Tell me about your commission.""
 HSI_TC1_4_2:""I am not fond of riddles.""",
 HSI_TC1_4_1,DialogOptionSelected,$option == HSI_TC1_4_1,"AddText ""\""Recover a special entity. I don't know exactly what it looks like.\""The Director said,\""I only know it's very weak — you should be capable enough to control it. I cannot spare the time, so I can only ask this of you. The coordinates will be sent to your Tripad. It does not seem to be able to move from its location.\"""" 255,140,200,255",,"HSI_TC1_5_1:""Okay, I'll make the trip for you.""",
-HSI_TC1_4_2,DialogOptionSelected,$option == HSI_TC1_4_2,"AddText ""After a long pause, the Director finally said:\""I was being presumptuous. Please return, Captain $playerName.\"""" 255,140,200,255",,cutCommLink:Leave her office,
-HSI_TC1_5_1,DialogOptionSelected,$option == HSI_TC1_5_1,"AddText ""\""Thank you, Captain $playerName. However... as you have seen, most special existences highly sensitive and peculiar. Although presumptuous of me, I hope for your safety.\""She takes out a small communicator:\""Should an unexpected situation occur, contact me immediately.\"""" 255,140,200,255
+HSI_TC1_4_2,DialogOptionSelected,$option == HSI_TC1_4_2,"AddText ""After a long pause, the Director finally said: \""I was being presumptuous. Please return, Captain $playerName.\"""" 255,140,200,255",,cutCommLink:Leave her office,
+HSI_TC1_5_1,DialogOptionSelected,$option == HSI_TC1_5_1,"AddText ""\""Thank you, Captain $playerName. However... as you have seen, most special existences highly sensitive and peculiar. Although presumptuous of me, I hope for your safety.\"" She takes out a small communicator: \""Should an unexpected situation occur, contact me immediately.\"""" 255,140,200,255
 HSITC1Orders ShowMap",,cutCommLink:Take the communicator,
 HSI_TC1_6,OpenInteractionDialog,"$HSI_TC1_MeetTheKnight score:1000
 !$global.HSITC1Finished","ShowDefaultVisual
@@ -279,15 +279,15 @@ HSI_TC1_13_2,DialogOptionSelected,$option == HSI_TC1_13_2,,"You repeatedly reass
 Only when you said it had been misled did the knight finally lift its head. ""Name."" You hear it say.
 
 You hesitate, but cannot think of a way to resolve this. You hear a buzz from the communicator and, in that moment, decide to take a risk.","HSI_TC1_14_2:""$playerName。""",
-HSI_TC1_14_1,DialogOptionSelected,$option == HSI_TC1_14_1,"AddText ""\""I will protect you.\""Says the knight to you."" 110,110,250,255
+HSI_TC1_14_1,DialogOptionSelected,$option == HSI_TC1_14_1,"AddText ""\""I will protect you.\"" the knight says to you."" 110,110,250,255
 HSITC1Orders GenKnight_SP
-AddText ""\""So... all's well that ends well?\""The communicator that had been silent for a long time buzzed again, and you realized that you'd never turned it off. You can only guess what kind of expression the Director wore while after listening to your performance. You quickly turn it off."" 110,110,250,255
+AddText ""\""So... all's well that ends well?\"" The communicator that had been silent for a long time buzzed again, and you realized that you'd never turned it off. You can only guess what kind of expression the Director wore while after listening to your performance. You quickly turn it off."" 110,110,250,255
 $global.HSITC1Finished = true
 HSITC1Orders ClearImportant HSI_TC1_MeetTheKnight
 $player.KnownByTheCommissioner = true",,defaultLeave:Time to leave.,
-HSI_TC1_14_2,DialogOptionSelected,$option == HSI_TC1_14_2,"AddText ""\""I will protect you.\""Says the knight to you."" 110,110,250,255
+HSI_TC1_14_2,DialogOptionSelected,$option == HSI_TC1_14_2,"AddText ""\""I will protect you.\"" the knight says to you."" 110,110,250,255
 HSITC1Orders GenKnight
-AddText ""\""So... all's well that ends well?\""The communicator that had been silent for a long time buzzed again, and you realized that you'd never turned it off. You can only guess what kind of expression the Director wore while after listening to your performance. You quickly turn it off."" 110,110,250,255
+AddText ""\""So... all's well that ends well?\"" The communicator that had been silent for a long time buzzed again, and you realized that you'd never turned it off. You can only guess what kind of expression the Director wore while after listening to your performance. You quickly turn it off."" 110,110,250,255
 $global.HSITC1Finished = true
 HSITC1Orders ClearImportant HSI_TC1_MeetTheKnight
 $player.KnownByTheCommissioner = true",,defaultLeave:Time to leave.,

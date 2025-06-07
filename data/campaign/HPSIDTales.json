@@ -7,13 +7,15 @@
   },
   "Avangers": {
     "title": "Stalkers Recruitment",
-    "desc":["Due to ongoing personnel shortages in the Persean Sector, the Stalker Crops has maintained continuous recruitment efforts. A requisite level of combat experience is required, and experience with large bounties is a plus.",
+    "desc":["Due to ongoing personnel shortages in the Persean Sector, the Stalker Crops has maintained continuous recruitment efforts.",
+      "A requisite level of combat experience is required, and experience with large bounties is a plus.",
       "Kindly make your way to the Space Bridge in the Intrusion system to meet with the Stalkers contact for more information."],
     "illustration":""
   },
   "Forge": {
     "title": "Production Capacity Sale",
-    "desc":["Halo Dynamics' Ship and Arms Industries have launched a joint discount campaign. VIP customers are exempt from certain blueprint and production capacity fees!",
+    "desc":["Halo Dynamics' Ship and Arms Industries have launched a joint discount campaign.",
+      "VIP customers are exempt from certain blueprint and production capacity fees!",
       "Kindly make your way to the Space Bridge in the Intrusion system to meet with a contact for more information."],
     "illustration":"graphics/factions/HSI.png"
   }

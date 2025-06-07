@@ -23,9 +23,9 @@
 		"layers":[STATIONS],# what layer(s) to render in. See CampaignEngineLayers.java for possible values
 	},
 	"HSI_Wanderer_Station":{
-		"defaultName":"Halo Dynamics Vanguard Fortress",# used if name=null in addCustomEntity()
-		"nameInText":"Halo Dynamics Vanguard Fortress",
-		"shortName":"Halo Dynamics Fortress",
+		"defaultName":"Vanguard Fortress",# used if name=null in addCustomEntity()
+		"nameInText":"Vanguard Fortress",
+		"shortName":"Vanguard Fortress",
 		"defaultRadius":110,# used if radius<0 in addCustomEntity()
 		"customDescriptionId":"HSI_Wanderer_Station",
 		"interactionImage":"graphics/illustrations/orbital.jpg",
