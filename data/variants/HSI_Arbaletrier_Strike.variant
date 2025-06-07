@@ -1,7 +1,7 @@
 {
   "variantId": "HSI_Arbaletrier_Strike",
   "hullId": "HSI_Arbaletrier",
-  "displayName": "Strike",
+  "displayName": "Strike Autonomous Combat Unit",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

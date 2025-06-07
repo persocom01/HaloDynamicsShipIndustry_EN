@@ -240,7 +240,7 @@ HSI_TheBet,SHIP_SYSTEM,"Overcharges carrier nanoforges, continuously replacing l
 HSI_TorpedoFactory,SHIP_SYSTEM,"Reloads all unguided missile weapons of the equivalent of 1250/2500/5000 damage worth of ammo, according to mount size. Any remainder is carried over to the next reload.",Special,,,
 HSI_ElegySystem,SHIP_SYSTEM,Increases damage taken by targets marked by Spirit Sight. Spirit deals damage to marked targets whose hull falls below a certain percentage or value.,Special,,,
 HSI_UnstableTimeFlow,SHIP_SYSTEM,"The flow of time on board the ship changes periodically. On taking damage, automatically speeds up, limited by cooldown. On manual activation, speeds up the flow of time on board the ship.",Special,,,
-HSI_EmergencyBarrier,SHIP_SYSTEM,Gain a fixed amount of additional barrier. The extra barrier cannot exceed 50% of maximum barrier capacity.,Special,,,
+HSI_EmergencyBarrier,SHIP_SYSTEM,Gain a fixed amount of additional barrier. This extra barrier cannot exceed 50% of maximum barrier capacity.,Special,,,
 HSI_RapidReinforcement,SHIP_SYSTEM,Instantly replaces lost fighters.,Special,,,
 HSI_IFFDisruptor,SHIP_SYSTEM,"Suppresses the target's Identification Friend or Foe, preventing it from targeting friendly fighters.",Special,,,
 HSI_HOH,SHIP_SYSTEM,"Fires the built-in ""Hammer of Humanity"".",,,,

@@ -1,7 +1,7 @@
 {
   "variantId": "HSI_Dancer_Scout",
   "hullId": "HSI_Dancer",
-  "displayName": "Scout",
+  "displayName": "Scout Autonomous Combat Unit",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

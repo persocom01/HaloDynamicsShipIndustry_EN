@@ -1,7 +1,7 @@
 {
   "variantId": "HSI_Maid_variant",
   "hullId": "HSI_Maid",
-  "displayName": "Support",
+  "displayName": "Support Drone",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
