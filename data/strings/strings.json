@@ -145,7 +145,7 @@
 
 
 		"HSI_TTMission_Name": "Peace Mission",
-		"HSI_TTMission_Desc0": "Amid eased tensions and calls not to stereotype Tri-Tachyon based on actions taken by another branch, Halo Dynamics and Tachyon Technology plan to hold peace talks on Culann.",
+		"HSI_TTMission_Desc0": "Amid eased tensions and calls not to stereotype Tri-Tachyon based on actions taken by another branch, Halo Dynamics and Tri-Tachyon plan to hold peace talks on Culann.",
 		"HSI_TTMission_Desc1": "Borodinov, Deputy Director of Halo Dynamics and head of Public Relations, leads a delegation to visit Tri-Tachyon, underscoring the importance of the talks.",
 
 		"HSI_TTMission_Desc2": "The peace talks went quite well. Both parties signed a framework agreement to foster mutual trust and friendship.",
@@ -189,7 +189,7 @@
 		"HSITimeBoosterWeapon":"Increase weapon rate of fire",
 		"HSITimeBoosterWeapon2":"Reduce weapon flux cost",
 		"HSITimeBoosterFighter":"Increase fighter flow of time",
-		"HSITimeBoosterModeHangar":"Focus: Hanger",
+		"HSITimeBoosterModeHangar":"Focus: Hangar",
 		"HSITimeBoosterModeWeapon":"Focus: Weapons",
 		"HSITimeBoosterModeFighter":"Focus: Fighters",
 
@@ -288,14 +288,14 @@
 		"HSIReflectShieldConflictWarning":"Incompatible with Reflective Shield Control",
 
 		"HSIFlexibleHangar0":"Additional Deployment and Preparation",
-		"HSIFlexibleHangar1":"Each hangar provides a shared preparation cap and reserve deployment cap, affected by fighter ordnance points and refit time.\nWhen a hanger is full, preparation points are accumulated, and when a wing is full, reserve points are accumulated.\nWhen a hanger preparation is insufficient, consume shared preparation for replenishment. When a wing suffers losses, consume shared reserve deployment for replenishment.",
+		"HSIFlexibleHangar1":"Each hangar contributes to a shared preparation cap and reserve deployment cap, affected by fighter ordnance points and refit time.\nWhen a hangar is full, preparation points are accumulated, and when a wing is full, reserve points are accumulated.\nWhen a hangar's preparation is insufficient, consume shared preparation for replenishment. When a wing suffers losses, consume shared reserve deployment for replenishment.",
 		"HSIFlexibleHangar2":"Wing",
 		"HSIFlexibleHangar3":"Prep",
 		"HSIFlexibleHangar4":"Reserve",
 		"HSIFlexibleHangar5":"P spd",
 		"HSIFlexibleHangar6":"R spd",
 		"HSIFlexibleHangar7":"Reserve Deployment cap depends on fighter ordnance points. The base is 3, if greater than 7 then 2, and greater than 15 then 1.\nReserve Deployment accumulation speed depends on wing refit time. Each reserve deployment requires 3x the refit time of a full hangar (up to 60 seconds) to accumulate.",
-		"HSIFlexibleHangar8":"Shared Preparation cap depends on fighter refit time. Each hangar contributes a maximum shared preparation of 10/refit time (capped at 150%).\nEvery full hanger provides 5% of its own cap per second as shared preparation.\nFor 10s after wing deployment, recover shared preparation at double speed without consuming shared preparation and accumulating reserve deployment.",
+		"HSIFlexibleHangar8":"Shared Preparation cap depends on fighter refit time. Each hangar contributes a maximum shared preparation of 10/refit time (capped at 150%).\nEvery full hangar provides 5% of its own cap per second as shared preparation.\nFor 10s after wing deployment, recover shared preparation at double speed without consuming shared preparation and accumulating reserve deployment.",
 
 		"HSINoSafetyOverridesWarning":"Incompatible with Safety Overrides",
 

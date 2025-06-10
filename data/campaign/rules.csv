@@ -488,14 +488,14 @@ The moment you peek out, one of them took aim and fired. You duck back behind th
 ",HSI_TTMission_Met5:So I was the target all along?,
 HSI_TTMission_Met5,DialogOptionSelected,$option == HSI_TTMission_Met5,,"You hear a pained groan and peek out just in time to see the Director strike the bartender's throat with a folding fan, and the bartender — or rather, one of the agents — collapses to the ground. The other is already down, most likely the source of the earlier groan.
 
-The other patrons have already fled. You decide to...
+The other patrons have fled. You decide to...
 ","HSI_TTMission_Met6_1:Grab the Director and make a run for it
 HSI_TTMission_Met6_1_pickWeapon:Pick up one of the Tri-Tachyon agent's weapons",
-HSI_TTMission_Met6,DialogOptionSelected,$option == HSI_TTMission_Met6_1,,"You grab the Director and make a dash out of the bar, only to find the signal jammer is still active, and nearby marines and Tri-Tachyon agents already closing in on you. Fortunately, some panicked civilians fleeing the scene disrupted their movements, allowing you to follow the Director as she darted between buildings.
+HSI_TTMission_Met6,DialogOptionSelected,$option == HSI_TTMission_Met6_1,,"You grab the Director and make a dash out of the bar, only to find the signal jammer is still active, and nearby marines and Tri-Tachyon agents already closing in. Fortunately, some panicked civilians fleeing the scene disrupted their movements, allowing you to follow the Director as she darts between buildings.
 
-Just as you had suspected, they weren't friendly, and rounds clipped the air close to you. Seizing the opportunity, the Director ducked into an alley and yanked you in after her. The pursuers seemed unsure which alley you turned into, buying you a moment of respite.
+Just as you had suspected, they weren't friendly, and rounds clipped the air close to you. Seizing the opportunity, the Director ducked into an alley and yanked you in after her. The pursuers seem unsure which alley you turned into, buying you a moment of respite.
 
-The quiet of the alley and the commotion outside seemed worlds apart. As you pause to catch your breath, the Director's folding fan suddenly clashes with a nearly invisible monomolecular blade right before your eyes. The blade fails to cut through the fan's ribs made of an unknown material, prompting the agent to quickly retreat, his violent movements causing his optical camouflage to deactivate.","HSI_TTMission_Met7:""Be careful, Captain $playerName, there's still one more.""",
+The quiet of the alley and the commotion outside seems worlds apart. As you pause to catch your breath, the Director's folding fan suddenly clashes with a nearly invisible monomolecular blade right before your eyes. The blade fails to cut through the fan's ribs made of an unknown material, prompting the agent to quickly retreat, his violent movements causing his optical camouflage to deactivate.","HSI_TTMission_Met7:""Be careful, Captain $playerName, there's one more.""",
 HSI_TTMission_Met6_pickWeapon,DialogOptionSelected,$option == HSI_TTMission_Met6_1_pickWeapon,,"The Tri-Tachyon agent is still alive, and you find only stun rounds in the gun. It seems the Tri-Tachyon agents inside knew how to show restraint, but the marines outside may not be as understanding.
 
 It's wiser to stay unarmed.",HSI_TTMission_Met6_1:Grab the Director and make a run for it,
@@ -504,25 +504,25 @@ HSI_TTMission_Met7,DialogOptionSelected,$option == HSI_TTMission_Met7,,"The word
 After dodging three waves of strikes, the Tri-Tachyon agent shifts tactics, and you begin to lose track of his position. Did he leave, or...?
 
 A synthesized voice comes from behind, nearly overlapping with a muffled groan: ""Step forward, $playerName $PlayerSirOrMadam, and mind the knife behind you.""",HSI_TTMission_Met8:Carefully do as you are told,
-HSI_TTMission_Met8,DialogOptionSelected,$option == HSI_TTMission_Met8,,"You take a few steps before turning around. The Tri-Tachyon agent was impaled through the heart, his lifeless body being dragged out of sight behind cover. Just then, the Director incapacitates the agent who first appeared and runs toward you.
+HSI_TTMission_Met8,DialogOptionSelected,$option == HSI_TTMission_Met8,,"You take a few steps before turning around. The Tri-Tachyon agent had been impaled through the heart, his lifeless body being dragged out of sight behind cover. Just then, the Director incapacitates the agent who first appeared and runs toward you.
 
 The Director first looks you over, and after confirming that you were unhurt, shifts her gaze to the air in front of you, ""Master Farris, was this the extent of your preparation?""
 
-The synthesized voice from earlier returns, ""As I recall, you were the one who warned that getting exposed might result in serious diplomatic consequences, Director."" A figure decloaks, revealing what appears to be a ""Dancer"", albeit a variation from the standard model you've seen. They turn towards you, ""Faris.""","HSI_TTMission_Met9_1:""$playerName.""
+The synthesized voice from earlier returns, ""As I recall, you were the one who warned that getting exposed might result in serious diplomatic consequences, Director."" A figure decloaks, revealing what appears to be a ""Dancer"", albeit a variation from the standard model you've seen. It turns towards you, ""Faris.""","HSI_TTMission_Met9_1:""$playerName.""
 HSI_TTMission_Met9_2:""You can call me $playerName.""",
 HSI_TTMission_Met9_1,DialogOptionSelected,$option == HSI_TTMission_Met9_1,"HSISetPerson ShowCommissionerTTMissionDepartment
-FireAll HSITTMissionNewsBrief","You managed to shake off Tri-Tachyon's pursuit and reached the safe house at last. After a brief rest, you learn that Tri-Tachyon had imposed martial law, citing a hunt for ""leftist terrorists attempting to sabotage peace negotiations"".
+FireAll HSITTMissionNewsBrief","You manage to shake off Tri-Tachyon's pursuit and reach the safe house at last. After a brief rest, you learn that Tri-Tachyon had imposed martial law, citing a hunt for ""leftist terrorists attempting to sabotage peace negotiations"".
 
 You glance at the tactical brief the Director is holding.",,
 HSI_TTMission_Met9_2,DialogOptionSelected,$option == HSI_TTMission_Met9_2,"HSISetPerson ShowCommissionerTTMissionDepartment
-FireAll HSITTMissionNewsBrief","You managed to shake off Tri-Tachyon's pursuit and reached the safe house at last. After a brief rest, you learn that Tri-Tachyon had imposed martial law, citing a hunt for ""leftist terrorists attempting to sabotage peace negotiations"".
+FireAll HSITTMissionNewsBrief","You manage to shake off Tri-Tachyon's pursuit and reach the safe house at last. After a brief rest, you learn that Tri-Tachyon had imposed martial law, citing a hunt for ""leftist terrorists attempting to sabotage peace negotiations"".
 
 You glance at the tactical brief the Director is holding.",,
 HSI_TTMission_Ambassadar,HSITTMissionNewsBrief,!$AskedAmbassadar,,,HSI_TTMission_NewsBrief_Ambassadar:Ask if assistance from the delegation is possible,
 HSI_TTMission_Fleet,HSITTMissionNewsBrief,!$AskedFleet,,,HSI_TTMission_NewsBrief_Fleet:Ask if assistance from the visiting fleet is possible,
 HSI_TTMission_Plan,HSITTMissionNewsBrief,,,,HSI_TTMission_NewsBrief_Plan:Ask what comes next,
 HSI_TTMission_Ambassadar_Answer,DialogOptionSelected,$option == HSI_TTMission_NewsBrief_Ambassadar,"$AskedAmbassadar = true 0
-FireAll HSITTMissionNewsBrief","""Tri-Tachyon's reaction was swift. Citing the threat of leftist elements, they tightened security around the delegation to assert control. Councilor Borodinov is no fool, and I'm afraid he'll soon manage to contact the Expeditionary Force soon, which could spell trouble for the entire Persean Sector.""",,
+FireAll HSITTMissionNewsBrief","""Tri-Tachyon's reaction was swift. Citing the threat of leftist elements, they tightened security around the delegation to assert control. Councilor Borodinov is no fool, and I'm afraid he'll soon manage to contact the Expeditionary Force, which could spell trouble for the entire Persean Sector.""",,
 HSI_TTMission_Fleet_Answer,DialogOptionSelected,$option == HSI_TTMission_NewsBrief_Fleet,"$AskedFleet = true 0
 FireAll HSITTMissionNewsBrief","""Communications have been fully severed. Since this is Tri-Tachyon's capital, any attempt to transmit a message will eventually lead to our location being discovered, no matter what method we use.""",,
 HSI_TTMission_Plan_Answer0,DialogOptionSelected,"$option == HSI_TTMission_NewsBrief_Plan
