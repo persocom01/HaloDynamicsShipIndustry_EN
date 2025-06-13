@@ -8,7 +8,7 @@
   "turretSprite": "graphics/weapons/HWI_TurbocannonS_turret.png",
   "turretGlowSprite": "graphics/weapons/HWI_TurboCannonS_turret_glow.png",
   "turretGunSprite": "graphics/weapons/HWI_TurboCannonS_turret_recoil.png",
-  "hardpointSprite": "graphics/weapons/HWI_TurbocannonS_hardpoint.png",
+  "hardpointSprite": "graphics/weapons/HWI_TurboCannonS_hardpoint.png",
   "hardpointGlowSprite": "graphics/weapons/HWI_TurboCannonS_hardpoint_glow.png",
   "hardpointGunSprite": "graphics/weapons/HWI_TurboCannonS_hardpoint_recoil.png",
   "glowColor": [
