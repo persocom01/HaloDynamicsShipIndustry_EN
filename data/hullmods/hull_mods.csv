@@ -60,9 +60,9 @@ Void Shield,VoidShield,2,0,Unknown,"special, no_drop, no_drop_salvage",,,,TRUE,,
 Hyper Shunted Permeable Armor,HSI_HyperShuntArmor,2,0,Halo Dynamics Department of Science and Technology,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIHyperShuntArmor,"An advanced armor system with significant drawbacks. Increases maximum damage reduction by armor by %s and reduces damage from beam weapons by %s.
 Allows reactors to slowly vent through the armor, naturally dissipating %s hard flux.
 The complex structure occupies space meant for weapon systems, reducing weapon damage by %s. Additionally, the intricate materials are difficult to maintain, reducing post-battle repair rates by %s.",,,graphics/icons/hullmods/HSI_TurboFocus.png
-Tactical Center,HSI_TacCenter,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSITacCenter,"Reduces the weapon range reduction due to superior enemy Electronic Warfare by %s.
-Increases Electronic Warfare strength by %s.
-Increases sensor range by %s.",,,graphics/icons/hullmods/HSI_MatrixTargeting.png
+Tactical Center,HSI_TacCenter,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSITacCenter,"Reduces the weapon range reduction due to enemy ECM by %s.
+Grants %s ECM rating.
+Increases the ship's in-combat vision range by %s.",,,graphics/icons/hullmods/HSI_MatrixTargeting.png
 Power Projection,HSI_PowerProjection,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIPowerProjection,"Increases fighter engagement range by %s.
 Fighters launched from this ship inherit all of the ship's combat skills.",,,graphics/icons/hullmods/HSI_DGS.png
 Nanofield,HSI_NanoRepairField,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSINanoRepairField,Friendly vessels within %s of this ship restore %s of lost armor and hull per second. This ship repairs at %s speed.,,,graphics/icons/hullmods/HSI_CombatAutomateRepairSystem.png
@@ -82,7 +82,7 @@ Damage to the barrier above %s is reduced by %s.
 ",,,graphics/icons/hullmods/HSI_HardenShield.png
 Enhanced Barrier,HSI_EnhancedShield,2,,Halo Dynamics Ship Industry,"defensive,HSI_bp",Shields,12000,,,,5,10,15,25,data.hullmods.ShieldMod.HSIEnhancedShield,Increases barrier capacity by %s. Increases barrier regeneration by %s.,,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
 ,,,,,,,,,,,,,,,,,,,graphics/icons/hullmods/HSI_WeaponIndUpgrades.png
-Meltdown Protocol,HSI_ProtocalMeltDown,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,4,8,12,20,data.hullmods.WeaponMod.HSIProtocalMeltDown,"Beam weapons deal %s more damage based on the ratio of weapon slots occupied by Halo Dynamics beam weapons.
+Meltdown Protocol,HSI_ProtocalMeltDown,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,4,8,12,20,data.hullmods.WeaponMod.HSIProtocalMeltDown,"Beam weapons deal up to %s more damage based on the ratio of weapon slots occupied by Halo Dynamics beam weapons.
 
 Enhances the additional effects of Halo Dynamics beam weapons by %s.
 
@@ -90,8 +90,8 @@ Current weapon slot ratio: %s.",,,graphics/icons/hullmods/HSI_ProtocalMeltdown.p
 Assault Protocol,HSI_ProtocalAssault,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,2,4,6,10,data.hullmods.WeaponMod.HSIProtocalAssault,"Increases the rate of fire of ballistic and energy weapons as flux levels rise, up to a maximum of %s at %s flux.
 ",,Also provides a equivalent flux cost reduction of up to %s to the weapons.,graphics/icons/hullmods/HSI_WeaponIndUpgrades.png
 Suppression Protocol,HSI_ProtocalSuppression,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,2,4,6,10,data.hullmods.WeaponMod.HSIProtocalSuppression,"When dealing damage to a target more than %s su from this ship, the target gains the [Coordinated Suppression] effect for a certain duration.
-Each stack of [Coordinated Suppression] increases all damage taken by the target to its %s based on the hull size of the source. The duration can be refreshed. A maximum of %s stacks from different sources can take effect, with only the highest stack applied.
-",,"In addition, an extra stack of [Coordinated Suppression] with the effect of %s can be applied to the target that does not count toward the maximum limit.",graphics/icons/hullmods/HSI_ProtocalSuppression.png
+Each stack of [Coordinated Suppression] increases all damage taken by the target to its %s based on the hull size of the source. The duration of [Coordinated Suppression] can be refreshed, and a maximum of %s stacks from different sources can be applied, with only the highest value being applied.
+",,"Applies an extra stack of [Coordinated Suppression] with %s effect to the target that does not count toward the maximum limit.",graphics/icons/hullmods/HSI_ProtocalSuppression.png
 净空升级,,,,,,,,,,,,,,,,,,,
 蔽日升级,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,

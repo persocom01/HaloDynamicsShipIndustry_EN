@@ -230,7 +230,7 @@
 			"freeAdmin":{"name":"Freelance Governor"},
 
             "HSI_TheCommisioner":{"name":"Director"},
-            "HPSIDOperator":{"name":"Security Department External Operator"},
+            "HPSIDOperator":{"name":"Security Department Field Operator"},
             "HSI_ForgeProvider":{"name":"Ship and Weapons Industry Representative"},
 		},
   },

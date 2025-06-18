@@ -1,7 +1,7 @@
 {
 	"baseHullId":"HSI_Eagle",
 	"skinHullId":"HSI_Eagle_Stalker",
-	"hullName":"Golden Eagle (S)",
+	"hullName":"Chrysaetos (S)",
 	"descriptionPrefix":"This ship is special variant a provided to the Stalkers. This vessel comes with internal modifications that drastically lower the thresholds of operational safety protocols to suit the demands of bloodthirsty maniacs who live life on the edge.",
 	"tags":["Stalker_bp","no_dealer","no_bp_drop"],
 	"tech":"Stalker",
