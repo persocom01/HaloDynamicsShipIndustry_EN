@@ -73,7 +73,7 @@
 		"HPSIDStageDSSSHL":"Deep Space Supply System",
 		"HPSIDStageSSP":"Unlocks access to elite ships.",
 		"HPSIDStageSSPHL":"Elite ships",
-		"HPSIDFNDesc":"Perks for cooperation with Halo Dynamics.",
+		"HPSIDFNDesc":"Perks for cooperation with Halo Dynamics",
 
 
 		"HPSIDForgeDesc":"Purchase Orders",
@@ -113,7 +113,7 @@
 		"HSI_Shop_Arrival":"Your %s order has arrived at %s",
 		"HSI_Shop_Pod_Name":"Deep Space Supply",
 		"HSI_ShopOwner_ChatConfirm0":"Well... alright, it's been sent out... is that good enough?",
-		"HSI_ShopOwner_ChatConfirm1":"You know... it takes real effort to deliver things out here. Is it wrong to charge a little more?",
+		"HSI_ShopOwner_ChatConfirm1":"You know... it takes real effort to deliver things here, so it's ok to charge a little more, right?",
 		"HSI_ShopOwner_ChatConfirm2":"Sigh... another supply convoy just got hit by pirates, what bad luck... but with our saturation resupply system, we'll still get it to you, okay?",
 		"HSI_ShopOwner_ChatTouch0":"Ah... are you hesitant because of the prices? Actually... with all the losses in transit we incur for this service... we're actually losing money you know?",
 		"HSI_ShopOwner_ChatTouch1":"Okay... I'm watching the Tripad now... but I'm so tired... but I can still, I can wait, right?",
@@ -240,11 +240,11 @@
 
 		"HSITurbulanceShieldV2Name":"Energy Barrier",
 		"HSITurbulanceShieldV2Desc1":"Creates an energy barrier on the surface of armor, taking damage in preference to armor and hull. The barrier has a capacity equal to %s of flux capacity, and it recovers at a rate equal to %s of flux dissipation. The barrier has an armor rating equivalent to %s of its capacity.",
-		"HSITurbulanceShieldV2Desc2":"Begins regenerating after a short cooldown when not taking hard flux damage, but generates flux while it regenerates.\nThe barrier is immune to EMP effects until its integrity falls below %s. Regeneration cooldown is greatly reduced if few enemies are nearby.",
-		"HSITurbulanceShieldV2Desc2Old":"Begins regenerating after a short cooldown when not taking hard flux damage, but generates flux while it regenerates.\nDamage below a certain threshold does not immediately halt or restart the regeneration process. Instead, it depletes a buffer pool equivalent to %s of the barrier capacity. If the buffer is insufficient, even damage below threshold will halt regeneration.\nThe buffer only replenishes when the barrier regenerates, at a rate of %s of the barrier's regeneration speed.\nThis damage threshold scales with the barrier capacity but never exceeds 75.\nRegeneration cooldown is greatly reduced if few enemies are nearby.",
+		"HSITurbulanceShieldV2Desc2":"Begins regenerating after a short cooldown when not taking hard flux damage, but generates flux while regenerating.\nThe barrier is immune to EMP effects until its integrity falls below %s. Regeneration cooldown is greatly reduced if few enemies are nearby.",
+		"HSITurbulanceShieldV2Desc2Old":"Begins regenerating after a short cooldown when not taking hard flux damage, but generates flux while regenerating.\nDamage below a certain threshold does not immediately halt or restart the regeneration process. Instead, it depletes a buffer pool equivalent to %s of the barrier capacity. If the buffer is insufficient, even damage below threshold will halt regeneration.\nThe buffer only replenishes when the barrier regenerates, at a rate of %s of the barrier's regeneration speed.\nThis damage threshold scales with the barrier capacity but never exceeds 75.\nRegeneration cooldown is greatly reduced if few enemies are nearby.",
 		"HSITurbulanceShieldV2Desc3":"Regeneration is greatly reduced while the ship is overloaded or while actively venting flux.",
 		"HSITurbulanceShieldV2Desc4":"The barrier gains additional damage reduction equal to the average damage reduction of shield, armor, and hull.\nHard flux dissipation while shields are active is converted to barrier regeneration at a rate of 40%, and takes effect even while barrier regeneration is on cooldown.",
-		"HSITurbulanceShieldV2TableTitle":"Performance Parameters",
+		"HSITurbulanceShieldV2TableTitle":"Performance parameters",
 		"HSITurbulanceShieldV2TableRowHeadL":"Barrier",
 		"HSITurbulanceShieldV2TableRowHeadR":"Value",
 		"HSITurbulanceShieldV2Row1":"Capacity",
@@ -287,14 +287,14 @@
 		"HSIReflectShield1":"The counter resets when shield regeneration begins.",
 		"HSIReflectShieldConflictWarning":"Incompatible with Reflective Shield Control",
 
-		"HSIFlexibleHangar0":"Additional Deployment and Preparation",
+		"HSIFlexibleHangar0":"Additional deployment and preparation",
 		"HSIFlexibleHangar1":"Each hangar contributes to a shared preparation cap and reserve deployment cap, affected by fighter ordnance points and refit time.\nWhen a hangar is full, preparation points are accumulated, and when a wing is full, reserve points are accumulated.\nWhen a hangar's preparation is insufficient, consume shared preparation for replenishment. When a wing suffers losses, consume shared reserve deployment for replenishment.",
 		"HSIFlexibleHangar2":"Wing",
 		"HSIFlexibleHangar3":"Prep",
 		"HSIFlexibleHangar4":"Reserve",
-		"HSIFlexibleHangar5":"P spd",
-		"HSIFlexibleHangar6":"R spd",
-		"HSIFlexibleHangar7":"Reserve Deployment cap depends on fighter ordnance points. The base is 3, if greater than 7 then 2, and greater than 15 then 1.\nReserve Deployment accumulation speed depends on wing refit time. Each reserve deployment requires 3x the refit time of a full hangar (up to 60 seconds) to accumulate.",
+		"HSIFlexibleHangar5":"P/s",
+		"HSIFlexibleHangar6":"R/s",
+		"HSIFlexibleHangar7":"Reserve Deployment cap depends on fighter ordnance points. Base reserve is 3, if fighter ordnance points are more than 7 then 2, and more than 15 then 1.\nReserve Deployment accumulation speed depends on wing refit time. Each reserve deployment requires 3x the refit time of a full hangar (up to 60 seconds) to accumulate.",
 		"HSIFlexibleHangar8":"Shared Preparation cap depends on fighter refit time. Each hangar contributes a maximum shared preparation of 10/refit time (capped at 150%).\nEvery full hangar provides 5% of its own cap per second as shared preparation.\nFor 10s after wing deployment, recover shared preparation at double speed without consuming shared preparation and accumulating reserve deployment.",
 
 		"HSINoSafetyOverridesWarning":"Incompatible with Safety Overrides",
@@ -309,14 +309,14 @@
 		"HSIEGOmaintain0":"Current Emotion Level: ",
 
 		"HSIEGO0":"A form of technology unknown within the Domain. This system was designed and constructed by the privately controlled L Department under the Director's authority.",
-		"HSIEGO1":"Emotion System",
-		"HSIEGO2":"The EGO system accumulates emotions when taking and dealing hull damage. Every %s damage taken and %s damage dealt generates %s points of negative/positive emotions. Upon reaching a point threshold, the emotion level increases, with the base threshold being %s points, increasing by %s points per level, with a maximum level of %s.",
+		"HSIEGO1":"Emotion system",
+		"HSIEGO2":"The EGO system accumulates emotions when taking and dealing hull damage. Every %s damage taken and %s damage dealt generates %s points of negative/positive emotions. Upon reaching a point threshold, the emotion level increases, with the base threshold being %s points, increasing by %s point(s) per level, with a maximum level of %s.",
 		"HSIEGO3":"Increases flux dissipation, flux capacity, and system cooldown speed by %s per level. Some hulls enhance or unlock abilities as they level up.",
-		"HSIEGO4":"When you receive potentially fatal damage for the first time each battle, instantly restore all ammo, system charges, and combat readiness. During this period, the ship cannot fire or be damaged, and gains the ability to pass through solid objects, and gain %s negative emotion. Peak time is unaffected by changes in the ship's flow of time.",
-		"HSIEGO_HUNT": "On destroying a target that has been previously damaged within a certain period of time, instantly restore %s combat readiness. Reduces the rate at which combat readiness degrades to %s of normal. If the combat readiness gained by this effect exceeds the max value, the excess will be halved. The extra combat readiness decays over time and cannot exceed %s.",
-		"HSIEGO5":"Emotion Level",
+		"HSIEGO4":"When you receive potentially fatal damage for the first time each battle, instantly restore all ammo, system charges, and combat readiness. During this period, the ship cannot fire or be damaged, gains the ability to pass through solid objects, and gains %s negative emotion. Peak time is unaffected by changes in the ship's flow of time.",
+		"HSIEGO_HUNT": "On destroying a target that has been previously damaged within a certain period of time, instantly restore %s combat readiness. Reduces the rate at which combat readiness degrades to %s of normal. If the combat readiness gained by this effect exceeds maximum, the excess will be halved. Excess combat readiness decays over time and cannot exceed %s.",
+		"HSIEGO5":"Emotion level",
 		"HSIEGO6":"Each time emotion level increases, an additional effect is randomly drawn. Effects can be positive or negative, with their likelihood weighted according to the ratio of negative/positive emotion accumulated in the level-up. Effects cannot be repeated, and some effects have level and EGO type restrictions.",
-		"HSIEGO7":"Career Effect",
+		"HSIEGO7":"Career effect",
 		"HSIEGO8":"Cumulative hull and armor damage taken is converted to emotion. The conversion threshold will gradually increase. Current Emotion: %s / %s",
 
 		"HSIEGOButterFly0":"Mourning",
@@ -325,7 +325,7 @@
 		"HSIEGOButterFly3":"EGO Level 6: Increases the number of Death Butterflies by %s.",
 
 
-		"HSIEGOCardsEffect": "Emotion Level",
+		"HSIEGOCardsEffect": "Emotion levels",
 		"HSIEGOCardsEffectPleasure": "Increases CR gain from destroying enemies by 50%",
 		"HSIEGOCardsEffectSteady": "Extends range to 115%",
 		"HSIEGOCardsEffectRIP": "Deal 115% damage to targets below 33% hull",
@@ -337,11 +337,11 @@
 		"HSIEGOCardsEffectGrief": "Reduces damage taken while venting/overloaded, and increases damage dealt to venting/overloaded targets",
 
 
-		"HSITorpDesign1":"Opening Torpedo Salvo",
-		"HSITorpDesign2":"Upon entering or leaving an engagement, fire a volley of missiles from all forward missile hardpoints. Does not consume ammo, but puts the weapons on cooldown for %s seconds. Increases the flight time of these missiles by %s seconds. Missiles fired in burst mode consume more ammo every two shots, resulting in a lower total number of missiles compared to a standard volley. Not triggered by enemies of a lower size class or quantity.",
+		"HSITorpDesign1":"Opening torpedo salvo",
+		"HSITorpDesign2":"Upon entering or leaving an engagement, fire a volley of missiles from all forward missile hardpoints. Does not consume ammo, but puts the weapons on cooldown for %s seconds. Increases the flight time of these missiles by %s seconds. The firing cost for burst fire missiles increases every two missiles, resulting in less missiles per burst than when fired normally. Not triggered by enemies of a lower size class or quantity.",
 
 
-		"HSITorpDesign3_Old":"Long-Range Torpedo Strike",
+		"HSITorpDesign3_Old":"Long-range torpedo strike",
 		"HSITorpDesign4_Old":"Reduces damage dealt by missile weapons by %s, while extending their range by %s.",
 
 		"HSI_LTorpDesign_NoRacks": "Incompatible with Expanded Missile Racks",
