@@ -65,10 +65,10 @@
 		"HPSIDIntelGuidence":"Proceed to Intrusion to liaise with representatives from various departments.\nThey provide rare items, allow you to place custom orders, and offer opportunities\nto strengthen relations with Halo Dynamics that will increase your HiNet clearance level.\nThe higher the level, the more access and privileges grants, but be warned,\nsubsequent hostilities against Halo Dynamics will be treated as betrayal.",
 		"HPSIDIntelGuidenceHL":"10/50/300",
 		"HPSIDStageJuniorCoop":"Grants a limited stipend.",
-		"HPSIDStageJuniorCoopHL":"Stipend",
+		"HPSIDStageJuniorCoopHL":" stipend",
 		"HPSIDStageSeniorCoop":"Grants some technical equipment and additional stipends.",
 		"HPSIDStageSeniorCoopHL1":"Technical equipment",
-		"HPSIDStageSeniorCoopHL2":"Stipend",
+		"HPSIDStageSeniorCoopHL2":" stipend",
 		"HPSIDStageDSSS":"Unlocks access to the Deep Space Supply System.",
 		"HPSIDStageDSSSHL":"Deep Space Supply System",
 		"HPSIDStageSSP":"Unlocks access to elite ships.",
@@ -398,7 +398,7 @@
 		"HSICombatAutomateRepirSystemArmor":"Repairing armor - remaining: ",
 
 		"HSIGuardFleet3Section": "3rd Guards Fleet",
-		"HSIGuardFleet3Intro0": "Awarded the \"Guards\" title for their heroic performance in the Delta-Kerm war of annihilation. Forty-nine minutes after the 1st Guards launched a desperate assault against three Tri-Tachyon battle groups, the 3rd Fleet broke through the blockade of the pulsar burst by force. Upon receiving intelligence from the 2nd Guards, the 3rd Guards immediately activated their short-range jump drive. Tri-Tachyon's hopes of preserving their main forces were completely dashed, leading to their unconditional surrender. The 3rd Guards was reorganized as a rapid-response force, with intelligence suggesting that at least half of its sub-fleets stationed on the other side of Intrusion's event horizon — a military force potent enough to upend the war-torn Persean Sector.",
+		"HSIGuardFleet3Intro0": "Awarded the \"Guards\" title for their heroic performance in the Delta-Kerm war of annihilation. Forty-nine minutes after the 1st Guards launched a desperate assault against three Tri-Tachyon battle groups, the 3rd Fleet forced their way through the pulsar beam that had separated them. Upon receiving intelligence from the 2nd Guards, the 3rd Fleet immediately activated their short-range jump drive. Tri-Tachyon's hopes of preserving their main force were dashed, leading to their unconditional surrender. After reorganization, the 3rd Guards was deployed as a rapid-response force, with intelligence suggesting that at least half of its sub-fleets stationed on the other side of Intrusion's event horizon — a military force potent enough to upend the war-torn Persean Sector.",
 
 		"HSIGuardFleet1Section": "1st Guards Fleet",
 		"HSiGuardFleet1Intro0": "Awarded the \"Guards\" title for crippling the Federation's mercenary fleet during the Nasu Standoff in C+51, completely derailing the Federation's strategic goals. While the 100th Battle Group, stationed at the Research Institute faced off against the Federation's main force in hyperspace, the covertly formed 1st Fleet and the Federation's mercenary fleet were engaged in a stealthy and brutal battle. Ultimately, the core forces of the mercenary fleet: Tri-Tachyon Corporate Guard and Eridani-Utopia Terraforming Corporation Guard chose to withdraw from the battlefield, causing the remaining mercenaries to scatter, and the Federation's offensive to instantly collapse.",
