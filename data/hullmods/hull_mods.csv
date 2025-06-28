@@ -91,7 +91,7 @@ Assault Protocol,HSI_ProtocalAssault,2,,Halo Dynamics Ship Industry,"offensive,r
 ",,Also provides a equivalent flux cost reduction of up to %s to the weapons.,graphics/icons/hullmods/HSI_WeaponIndUpgrades.png
 Suppression Protocol,HSI_ProtocalSuppression,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,2,4,6,10,data.hullmods.WeaponMod.HSIProtocalSuppression,"When dealing damage to a target more than %s su from this ship, the target gains the [Coordinated Suppression] effect for a set duration.
 Each stack of [Coordinated Suppression] increases all damage taken by the target to its %s based on the hull size of the source. The duration of [Coordinated Suppression] can be refreshed, and a maximum of %s stacks from different sources can be applied, with only the highest value being applied.
-",,"Applies an extra stack of [Coordinated Suppression] with %s of the effect of a regular stack to the target that does not count toward the maximum limit.",graphics/icons/hullmods/HSI_ProtocalSuppression.png
+",,Applies an extra stack of [Coordinated Suppression] with %s of the effect of a regular stack to the target. Does not count toward the stack limit.,graphics/icons/hullmods/HSI_ProtocalSuppression.png
 净空升级,,,,,,,,,,,,,,,,,,,
 蔽日升级,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,

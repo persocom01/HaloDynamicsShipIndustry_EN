@@ -264,15 +264,15 @@ def update_setting_in_json(file_path, key, new_value):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-def swap_variants(subdirectory=''):
+def swap_variants(subdirectory='', folder_name='variants'):
     # Get the directory where the script is located
     script_directory = os.path.dirname(os.path.abspath(__file__))
     script_directory += f'{subdirectory}'
 
     # Define the paths
-    variants_path = os.path.join(script_directory, 'variants')
-    variants_cn_path = os.path.join(script_directory, 'variants_CN')
-    variants_en_path = os.path.join(script_directory, 'variants_EN')
+    variants_path = os.path.join(script_directory, f'{folder_name}')
+    variants_cn_path = os.path.join(script_directory, f'{folder_name}_CN')
+    variants_en_path = os.path.join(script_directory, f'{folder_name}_EN')
 
     # Print out the paths for debugging
     print(f"Script directory: {script_directory}")
@@ -342,5 +342,5 @@ if __name__ == "__main__":
     swap_name("data/missions/HSI_Test/mission_text.txt", "mission_text.txt")
     swap_name("data/missions/HSI_TheFinale/descriptor.json", "descriptor.json")
     swap_name("data/missions/HSI_TheFinale/mission_text.txt", "mission_text.txt")
-    swap_variants(r'\data\hulls')
+    swap_variants(r'\data\hulls','skins')
     swap_variants(r'\data')
