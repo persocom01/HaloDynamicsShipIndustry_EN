@@ -140,7 +140,7 @@
 		"HSI_HPSIDRelFactor": "Relationship impact",
 
 		"HSIDreadnoughtFleetName": "Main Fleet",
-		"HSIDreadnoughtArtilleryWarning": "Locked on by point defenses",
+		"HSIDreadnoughtArtilleryWarning": "Locked on by ground batteries",
 		"HSIDreadnoughtArtilleryWarningCountdown": "Time to next strike-",
 
 
@@ -398,7 +398,7 @@
 		"HSICombatAutomateRepirSystemArmor":"Repairing armor - remaining: ",
 
 		"HSIGuardFleet3Section": "3rd Guards Fleet",
-		"HSIGuardFleet3Intro0": "Awarded the \"Guards\" title for their heroic performance in the Delta-Kerm war of annihilation. Forty-nine minutes after the 1st Guards launched a desperate assault against three Tri-Tachyon battle groups, the 3rd Fleet forced their way through the pulsar beam that had separated them. Upon receiving intelligence from the 2nd Guards, the 3rd Fleet immediately activated their short-range jump drive. Tri-Tachyon's hopes of preserving their main force were dashed, leading to their unconditional surrender. After reorganization, the 3rd Guards was deployed as a rapid-response force, with intelligence suggesting that at least half of its sub-fleets stationed on the other side of Intrusion's event horizon — a military force potent enough to upend the war-torn Persean Sector.",
+		"HSIGuardFleet3Intro0": "Awarded the \"Guards\" title for their heroic exploits in the Delta-Kerm war of annihilation. Forty-nine minutes after the 1st Guards launched a desperate assault against three Tri-Tachyon battle groups, the 3rd Fleet forced their way through the pulsar beam that had separated them. Upon receiving intelligence from the 2nd Guards, the 3rd Fleet immediately activated their short-range jump drive. Tri-Tachyon's hopes of preserving their main force were dashed, leading to their unconditional surrender. After reorganization, the 3rd Guards was deployed as a rapid-response force, with intelligence suggesting that at least half of its sub-fleets stationed on the other side of Intrusion's event horizon — a military force potent enough to upend the war-torn Persean Sector.",
 
 		"HSIGuardFleet1Section": "1st Guards Fleet",
 		"HSiGuardFleet1Intro0": "Awarded the \"Guards\" title for crippling the Federation's mercenary fleet during the Nasu Standoff in C+51, completely derailing the Federation's strategic goals. While the 100th Battle Group, stationed at the Research Institute faced off against the Federation's main force in hyperspace, the covertly formed 1st Fleet and the Federation's mercenary fleet were engaged in a stealthy and brutal battle. Ultimately, the core forces of the mercenary fleet: Tri-Tachyon Corporate Guard and Eridani-Utopia Terraforming Corporation Guard chose to withdraw from the battlefield, causing the remaining mercenaries to scatter, and the Federation's offensive to instantly collapse.",

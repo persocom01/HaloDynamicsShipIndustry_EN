@@ -20,7 +20,7 @@ Rapid Reinforcement,HSI_RapidReinforcement,,,,,,0.2,,2,0.0333,0.5,1,2,15,,,,,,,,
 IFF Disruptor,HSI_IFFDisruptor,,0.2,,,,,,3,0.04,1,10,2,8,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
 Time Shunt,HSI_TimeShunt,,,,,,,,,,0.2,,0.2,1,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
 Thundergod's Wrath,HSI_ThorFury,1,,,,,0.2,,,,0.5,3,0.5,4,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
-Laminar flow,HSI_LuminarFlow,,,,,,,,3,0.04,0.25,3,0.25,6,,,,,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Laminar Flow,HSI_LuminarFlow,,,,,,,,3,0.04,0.25,3,0.25,6,,,,,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
 Phase Teleporter,HSI_Phaseteleporter,,,,,,,,,,1,,2.5,10.5,,,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
 Travel Boost,HSI_TravelJump,1,,,,,,,,,2,,2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
 Hyper Boost,HSI_HyperJump,1,,,,,,,,,2,,0.2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
