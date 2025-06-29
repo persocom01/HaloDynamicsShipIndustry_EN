@@ -276,14 +276,14 @@ def swap_variants(subdirectory='', folder_name='variants'):
 
     # Print out the paths for debugging
     print(f"Script directory: {script_directory}")
-    print(f"Variants path: {variants_path}")
-    print(f"Variants_cn path: {variants_cn_path}")
-    print(f"Variants_en path: {variants_en_path}")
+    print(f"{folder_name} path: {variants_path}")
+    print(f"{folder_name}_cn path: {variants_cn_path}")
+    print(f"{folder_name}_en path: {variants_en_path}")
     
     # Check existence of directories
-    print(f"Does 'variants' exist? {'Yes' if os.path.exists(variants_path) else 'No'}")
-    print(f"Does 'variants_cn' exist? {'Yes' if os.path.exists(variants_cn_path) else 'No'}")
-    print(f"Does 'variants_en' exist? {'Yes' if os.path.exists(variants_en_path) else 'No'}")
+    print(f'Does "{folder_name}" exist? {"Yes" if os.path.exists(variants_path) else "No"}')
+    print(f'Does "{folder_name}_cn" exist? {"Yes" if os.path.exists(variants_cn_path) else "No"}')
+    print(f'Does "{folder_name}_en" exist? {'Yes' if os.path.exists(variants_en_path) else "No"}')
 
     # Check if the current backup is "variants_cn"
     if os.path.exists(variants_cn_path) and not os.path.exists(variants_en_path):
@@ -291,7 +291,7 @@ def swap_variants(subdirectory='', folder_name='variants'):
         os.rename(variants_path, variants_en_path)
         # Rename "variants_cn" to "variants"
         os.rename(variants_cn_path, variants_path)
-        print('Swapped "variants_cn" with "variants".')
+        print(f'Swapped "{folder_name}_cn" with "{folder_name}".')
 
     # Check if the current backup is "variants_en"
     elif os.path.exists(variants_en_path) and not os.path.exists(variants_cn_path):
@@ -299,7 +299,7 @@ def swap_variants(subdirectory='', folder_name='variants'):
         os.rename(variants_path, variants_cn_path)
         # Rename "variants_en" to "variants"
         os.rename(variants_en_path, variants_path)
-        print('Swapped "variants_en" with "variants".')
+        print(f'Swapped "{folder_name}_en" with "{folder_name}".')
 
     else:
         print('No swap performed. Please ensure the directories exist and try again.')
@@ -312,7 +312,8 @@ if __name__ == "__main__":
     swap_file_csv("data/characters/skills/skill_data.csv", "skill_data", ['description'])
     swap_file_csv("data/hullmods/hull_mods.csv","hull_mods",['name','tech/manufacturer','uiTags','desc','short','sModDesc'])
     swap_file_csv("data/hulls/ship_data.csv", "ship_data", ['name','tech/manufacturer','designation'])
-    swap_file_csv("data/hulls/wing_data.csv", "wing_data", ['role desc',])
+    # swap_file_csv("data/hulls/wing_data.csv", "wing_data", ['role desc',])
+    swap_name("data/hulls/wing_data.csv", "wing_data.csv")
     swap_file_csv("data/shipsystems/ship_systems.csv", "ship_systems", ['name'])
     swap_file_csv("data/strings/descriptions.csv", "descriptions", ['text1','text2','text3','text4'])
     swap_file_csv("data/weapons/weapon_data.csv","weapon_data",['name','tech/manufacturer','primaryRoleStr','speedStr','trackingStr','customPrimary','customPrimaryHL'])
@@ -342,5 +343,5 @@ if __name__ == "__main__":
     swap_name("data/missions/HSI_Test/mission_text.txt", "mission_text.txt")
     swap_name("data/missions/HSI_TheFinale/descriptor.json", "descriptor.json")
     swap_name("data/missions/HSI_TheFinale/mission_text.txt", "mission_text.txt")
-    swap_variants(r'\data\hulls','skins')
     swap_variants(r'\data')
+    swap_variants(r'\data\hulls','skins')
