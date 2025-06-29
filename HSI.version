@@ -1,12 +1,12 @@
 {
     "masterVersionFile":"https://raw.githubusercontent.com/persocom01/HaloDynamicsShipIndustry_EN/heads/master/HSI.version",
     "modName":"Halo Dynamics Ship Industry",
-    "modThreadId": "",
+    "modThreadId": "33509",
     "modVersion":
     {
         "major":1,
         "minor":7,
-        "patch":0e0.95
+        "patch":0e1
     },
     "directDownloadURL": "https://github.com/persocom01/HaloDynamicsShipIndustry_EN/releases/latest/download/HaloDynamicsShipIndustry_EN.zip",
     "changelogURL": "https://raw.githubusercontent.com/persocom01/HaloDynamicsShipIndustry_EN/refs/heads/master/Changelog"

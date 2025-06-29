@@ -1,4 +1,4 @@
-v1.7.0
+1.7.0
 
 Updated to 0.98a
 
@@ -10,7 +10,7 @@ temporarily removed Poem of Stars
 added Arc Blaster
 
 Stalkers contact
-Purchased ships now directly enter your fleet
+purchased ships now directly enter your fleet
 
 Mass Accelerator
 revised projectile selection logic
@@ -26,7 +26,7 @@ deals additional damage on hit, and exerts moderate pull force on targets
 
 Space Bridge is now protected by new fleets after the sinking of the Ephemeral dreadnought
 
-v1.6.2
+1.6.2
 Data rebalancing
 Now supports hotfixes
 Weapons
@@ -186,7 +186,7 @@ Increased Butterfly-class point cost
 Reduced Poem of Stars point cost, WIP not recommended for purchase
 Deploying too many ships during Ephemeral battle now triggers planetary ground battery fire
 
-v1.6.1
+1.6.1
 New campaign content.
 Additional tooltip text.
 
@@ -194,11 +194,11 @@ Ephemeral
 ordnance points 360->440
 new hullmod Vast Hanger
 
-v1.6.0-r
+1.6.0-r
 Torpedo Factory system now properly resupplies ammo when used.
 Decorative weapons now have the SYSTEM tag to prevent accidental acquisition.
 
-v1.6.0
+1.6.0
 Texture overhaul
 Numerical adjustments
 
