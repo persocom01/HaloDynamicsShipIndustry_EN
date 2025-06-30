@@ -255,7 +255,7 @@ HSI_TC1_10,DialogOptionSelected,$option == HSI_TC1_10,,"The communicator connect
 ""Yes. It looks like... a knight."" You sense the other party being unusually relaxed, ""It's a bit unexpected, but nothing unmanageable. I'm confident your eloquence will get you through it, Captain $playerName.""",HSI_TC1_11:Try to communicate,
 HSI_TC1_11,DialogOptionSelected,$option == HSI_TC1_11,,"A Luddic Knight, pledged to uphold the teachings of Ludd. Obedient to the orders of the Church, eradicator of Moloch's creations, and defender of the spirit of Ludd with sword and hammer.
 
-Stalwart guardian of the Luddic faithful, and purger of heretics and abominations. Over the decades, even as great victories were won, doubts grew. Do all evil creations destroy the human spirit? During the long years of war, not all heretics had their souls taken by the machines, as the bishops had said. In a sector on the brink of collapse, death lurked in many places, independent of the machines.
+Stalwart guardian of the Luddic faithful, and purger of heretics and abominations. Over the decades, even as great victories were won, doubt grew. Do all evil creations destroy the human spirit? During the long years of war, not all heretics had their souls taken by the machines, as the bishops had said. In a sector on the brink of collapse, death lurked in many places, independent of the machines.
 
 The deeper the inquiry, the more uncertainty and doubt surfaced. Faith clashed with reality, and she was never able to be as flexible as her peers in dealing with the facts she faced.
 
@@ -367,14 +367,14 @@ $global.HSITC0Finished
 It seems someone is trying to establish contact with something in orbit, but nothing appears to be there.",HSI_Skye_TryContact:Ask your comms officer if the source can be located,
 HSI_Skye_1,DialogOptionSelected,$option == HSI_Skye_TryContact,,"""This communication mode..."" Your comms officer fiddles with the console, ""Almost... done!""
 
-""Hello, hello —— is anyone there..."" You and your officers exchange puzzled glances, as the only thing on the monitor is a fish's tail.","HSI_Skye_1:""Are you certain this is the right video feed?""",
+""Helloo, helloo —— is anyone there..."" You and your officers exchange puzzled glances, as the only thing on the monitor is a fish tail.","HSI_Skye_1:""Are you certain this is the right video feed?""",
 HSI_Skye_2,DialogOptionSelected,$option == HSI_Skye_1,"HSISetPerson Skye
 ShowPersonVisual","Your comms officer urgently gestures to you that the channel is still open. It is clear the other party heard your words, as the camera feed starts shaking violently.
 
 A moment later, a girl appears on the screen. ""Wooow. This box actually talkshh.""","HSI_Skye_2:""Hello?""",
 HSI_Skye_3,DialogOptionSelected,$option == HSI_Skye_2,,"""Weeell, the person who gave us this box said that one day, someone from the sky would speak through itshh."" The girl stares seriously into the camera, ""I kept asking, and finally it spokeshh.""
 
-You see your comms officer review the recent recordings, trying to confirm if he really saw a fish's tail, while your operations officer quietly questions if there have been too many hallucinations lately. It's clear neither of them is in any position to offer useful advice.","HSI_Skye_3:""Are you part of the crew of a wrecked ship? Is there anyone else with you?""",
+You see your comms officer review the recent recordings, trying to confirm if he really saw a fish tail, while your operations officer quietly questions if there have been too many hallucinations lately. It's clear neither of them is in any position to offer useful advice.","HSI_Skye_3:""Are you part of the crew of a wrecked ship? Is there anyone else with you?""",
 HSI_Skye_4,DialogOptionSelected,$option == HSI_Skye_3,,"""Crew of a wrecked ship? Are you asking about those people? They returned long agoshh."" It seems that the other party found a place to set the 'box' down. ""I only heard the story of the boxshh, so I asked it something every dayshh.""
 
 You get the sense that the other party struggles with communication, and your operations officer raises an eyebrow in your direction, which you understand. A short while later, a small team descends to the planet's surface aboard a shuttle. Your comms officer leads you to the source of the signal, while reluctantly maintaining contact with the other party.
@@ -459,9 +459,9 @@ HSI_TTMission_Met0,DialogOptionSelected,$option == HSITTMissionMet,,"Despite bei
 As if guided by something, you enter the third bar. Compared with the first two, this one was quieter, with only a few people scattered across the booths. The bartender gives you a brief glance before continuing to wipe glasses with his head bowed.
 
 Your briefly make eye contact with a familiar face from the news, someone who shouldn't be in this place, and you quickly avert your eyes.
-",HSI_TTMission_Met1:Walk over take a seat opposite her,
+",HSI_TTMission_Met1:Walk over and take a seat opposite her,
 HSI_TTMission_Met1,DialogOptionSelected,$option == HSI_TTMission_Met1,"HSISetPerson TheCommissioner
-HSISetPerson ShowCommissionerTTMissionBar","You were about to say something, but the Director silences you with a glance. She rises, takes the seat next to yours, and turns her back to shield you from view of the bartender. Pretending to fix your hair, she slips you a tiny earpiece.
+HSISetPerson ShowCommissionerTTMissionBar","You open your mouth to speak, but the Director silences you with a glance. She rises, takes the seat next to yours, and turns her back to shield you from view of the bartender. Pretending to fix your hair, she slips you a tiny earpiece.
 
 She leans close, and speaks softly into your ear: ""Here there are eyes everywhere. Be careful. The jammer keeps them from hearing us as long as we whisper, so keep your voice down.""
 
