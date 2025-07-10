@@ -5,7 +5,7 @@
   "type": "ENERGY",
   "size": "SMALL",
   "everyFrameEffect": "data.weapons.scripts.HWITurboChargerWeapon",
-  "turretSprite": "graphics/weapons/HWI_TurbocannonS_turret.png",
+  "turretSprite": "graphics/weapons/HWI_TurboCannonS_turret.png",
   "turretGlowSprite": "graphics/weapons/HWI_TurboCannonS_turret_glow.png",
   "turretGunSprite": "graphics/weapons/HWI_TurboCannonS_turret_recoil.png",
   "hardpointSprite": "graphics/weapons/HWI_TurboCannonS_hardpoint.png",

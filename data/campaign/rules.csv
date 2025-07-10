@@ -463,7 +463,7 @@ Your briefly make eye contact with a familiar face from the news, someone who sh
 HSI_TTMission_Met1,DialogOptionSelected,$option == HSI_TTMission_Met1,"HSISetPerson TheCommissioner
 HSISetPerson ShowCommissionerTTMissionBar","You open your mouth to speak, but the Director silences you with a glance. She rises, takes the seat next to yours, and turns her back to shield you from view of the bartender. Pretending to fix your hair, she slips you a tiny earpiece.
 
-She leans close, and speaks softly into your ear: ""Here there are eyes everywhere. Be careful. A privacy field keeps them from hearing us as long as we whisper, so keep your voice down.""
+She leans close, and speaks softly into your ear: ""Here there are eyes everywhere. Be careful. A sound jammer keeps them from hearing us as long as we whisper, so keep your voice down.""
 
 You feel her breath in your ear get further away.","HSI_TTMission_Met2:""Looks like I got involved in some kind of a big deal?""",
 HSI_TTMission_Met2,DialogOptionSelected,$option == HSI_TTMission_Met2,,"With a barely noticeable nod, she turns to lean on your shoulder. A few taps on the Tripad reveals a tiny file, showing the title ""Deputy Chief"" of the Security Department Field Division, assigned to Persean Sector 3, a position with understated significance. You quickly grasp the situation, ask for a drink as a cover, and use the chance to discreetly observe everyone in the bar.
