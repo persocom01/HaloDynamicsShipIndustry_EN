@@ -6,7 +6,7 @@
     {
         "major":1,
         "minor":7,
-        "patch":0e1
+        "patch":0e2
     },
     "directDownloadURL": "https://github.com/persocom01/HaloDynamicsShipIndustry_EN/releases/latest/download/HaloDynamicsShipIndustry_EN.zip",
     "changelogURL": "https://raw.githubusercontent.com/persocom01/HaloDynamicsShipIndustry_EN/refs/heads/master/Changelog"
