@@ -18,7 +18,7 @@ Number of available ""Combat Auto-Maintenance Systems"" in the fleet is %s.",,,g
 Leviathan Hunter,HSI_LeviathanHunter,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSILeviathanHunter,"Extends weapon range by %s when the tactical system is fully activated.
 +%s damage to capital ships and cruisers
 During %s, the tactical system cannot be activated. The ship instead enters Mobility Mode, increasing the ship's top speed by %s and maneuverability by %s.",,,graphics/icons/hullmods/HSI_LeviathanHunter.png
-Light Torpedo Scheme,HSI_LightTorpDesign,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSILightTorpDesign,"Reduces the ordnance point cost of guided missile weapons by %s. Missile weapons that regenerate ammo no longer do so, but their ammo is increased by an equivalent of %s seconds of reserves.
+Light Torpedo Scheme,HSI_LightTorpDesign,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSILightTorpDesign,"Increases the ordnance point cost of guided missile weapons by %s. Missile weapons that regenerate ammo no longer do so, but their ammo is increased by an equivalent of %s seconds of reserves.
 
 Incompatible with Expanded Missile Racks.
 ",,,graphics/icons/hullmods/HSI_TorpedoDesign.png
@@ -68,7 +68,7 @@ Fighters launched from this ship inherit all of the ship's combat skills.",,,gra
 Nanofield,HSI_NanoRepairField,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSINanoRepairField,Friendly vessels within %s of this ship restore %s of lost armor and hull per second. This ship repairs at %s speed.,,,graphics/icons/hullmods/HSI_CombatAutomateRepairSystem.png
 Juggernaut Targeting Core,HSI_JuggernautTargetingCore,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIJuggernautTargetingCore,Extends weapon range by %s. The range of point defense-weapons is only extended by %s.,,,graphics/icons/hullmods/HSI_MatrixTargeting.png
 Juggernaut Core,HSI_JuggernautCore,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIJuggernautCore,Unable to use zero-flux engine boost.,,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
-Armored Shield,HSI_ArmoredShield,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.ShieldMod.HSIArmoredShield,Barrier has additional %s armor value.,,,graphics/icons/hullmods/HSI_HardenShield.png
+Armored Barrier,HSI_ArmoredShield,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.ShieldMod.HSIArmoredShield,Increases barrier armor by %s.,,,graphics/icons/hullmods/HSI_HardenShield.png
 Mobility Focus,HSI_ManuverTransfer,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.ShieldMod.HSIManuverTransfer,The propulsion system's heavy energy and space demands increase the damage taken by the barrier by %s.,,,graphics/icons/hullmods/HSI_ManuverTransfer.png
 ,,,,,,,,,,,,,,,,,,,
 #normal#,,,,,,,,,,,,,,,,,,,

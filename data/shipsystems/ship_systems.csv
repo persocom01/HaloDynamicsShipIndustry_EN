@@ -1,7 +1,7 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
 Time Reversal,HSI_TimeShift,,,,100,,,,,,0,1.5,0.3,8,,,,,,TRUE,TRUE,TRUE,,TRUE,,,graphics/icons/hullsys/temporal_shell.png
 Subspace Walker,HSI_SubSpaceWalker,,,,,,,,,,0.6,,0.3,3,TRUE,,TRUE,TRUE,TRUE,,,,,TRUE,TRUE,,graphics/icons/hullsys/phase_cloak.png
-Fortified Barrier,HSI_FortifiedShield,,,0.025,,,,,,,1.5,,1.5,2,TRUE,,TRUE,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/fortress_shield.png
+Fortress Barrier,HSI_FortifiedShield,,,0.025,,,,,,,1.5,,1.5,2,TRUE,,TRUE,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/fortress_shield.png
 Deploy HMG,HSI_HMGTurretDeploy,,,,,,,,3,0.0333,0.25,,0.25,,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
 Arc Mine Strike,ArcMineStrike,,,,,,0.1,,5,0.05,0.25,,0.25,,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
 Deploy Citadel,HSI_DeployCitadel,,,,5000,,,,,,2.5,,2,10,,,,,,,,,,TRUE,,,graphics/icons/hullsys/drone_pd_high.png
