@@ -294,8 +294,8 @@
 		"HSIFlexibleHangar4":"Reserve",
 		"HSIFlexibleHangar5":"P/s",
 		"HSIFlexibleHangar6":"R/s",
-		"HSIFlexibleHangar7":"Reserve Deployment cap depends on fighter ordnance points. Base reserve is 3, if fighter ordnance points are more than 7 then 2, and more than 15 then 1.\nReserve Deployment accumulation speed depends on wing refit time. Each reserve deployment requires 3x the refit time of a full hangar (up to 60 seconds) to accumulate.",
-		"HSIFlexibleHangar8":"Shared Preparation cap depends on fighter refit time. Each hangar contributes a maximum shared preparation of 10/refit time (capped at 150%).\nEvery full hangar provides 5% of its own cap per second as shared preparation.\nFor 10s after wing deployment, recover shared preparation at double speed without consuming shared preparation and accumulating reserve deployment.",
+		"HSIFlexibleHangar7":"Reserve Deployment cap depends on fighter ordnance points. Reserve Deployment cap is 3/2/1 for fighter ordnance points more than 0/7/15.\nReserve Deployment accumulation speed depends on wing refit time. Each reserve deployment requires 3x the refit time of a full hangar (up to 60 seconds) to accumulate.",
+		"HSIFlexibleHangar8":"Shared Preparation cap depends on fighter refit time. Each hangar contributes a maximum shared preparation of 10/refit time (capped at 150%).\nEvery full hangar provides 5% of its own cap per second as shared preparation.\nUpon entering the battlefield, recover shared preparation at double speed for 10s. No shared preparation or reserve deployment calculations are performed.",
 
 		"HSINoSafetyOverridesWarning":"Incompatible with Safety Overrides",
 
